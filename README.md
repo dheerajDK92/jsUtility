@@ -2,6 +2,10 @@
 
 Get Javascript Utility Methods To Save Duplication Of Code In Your Project.
 
+# installation
+
+npm i js_utility_fns
+
 # Null Check 
 
 isNullCheck : This method will return true/false after checking the value.
