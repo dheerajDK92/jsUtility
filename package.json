@@ -1,0 +1,27 @@
+{
+  "name": "util-js-fns",
+  "version": "1.0.0",
+  "description": "Javascript Utility Methods Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajDK92/jsUtility.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Utility",
+    "Methods",
+    "Javascript",
+    "Null",
+    "Check"
+  ],
+  "author": "Dheeraj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajDK92/jsUtility/issues"
+  },
+  "homepage": "https://github.com/dheerajDK92/jsUtility#readme"
+}
