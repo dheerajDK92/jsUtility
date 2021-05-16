@@ -22,7 +22,6 @@ const searchArrayStr = (array, filterValue) => {
 };
 
 const getRandomNumber = (appender) => {
-  const date = new Date();
   const randomNumberByDate = Math.floor(new Date().valueOf() * Math.random());
   if (appender === undefined) return `${randomNumberByDate}`;
   else return `${appender}${randomNumberByDate}`;
