@@ -12,7 +12,7 @@ isNull : This method will return true/false after checking the value.
 
 ```javascript
 import { isNull }  from "js_utility_fns";
-isNull(value);
+if(isNull(value)){ ... };
 ```
 
 ### Empty Check
@@ -21,7 +21,7 @@ isEmpty : This method will return boolean value after checking the string.
 
 ```javascript
 import { isEmpty }  from "js_utility_fns";
-isEmpty(value);
+if(isEmpty(value)){ ... };
 ```
 
 ### Null or Undefined Check
@@ -30,7 +30,7 @@ isNullOrUndefined : This method will return boolean after check the null/undefin
 
 ```javascript
 import { isNullOrUndefined }  from "js_utility_fns";
-isNullOrUndefined(value);
+if(isNullOrUndefined(value)){ ... };
 ```
 ### Object Has Key
 
@@ -38,7 +38,7 @@ hasProperty : This method will return boolean after check the Object param is av
 
 ```javascript
 import { hasProperty }  from "js_utility_fns";
-hasProperty(obj.paramToCheck);
+if(hasProperty(obj.paramToCheck)){ ... };
 ```
 
 
