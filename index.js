@@ -23,15 +23,8 @@ const searchArrayStr = (array, filterValue) => {
 
 const getRandomNumber = (appender) => {
   const date = new Date();
-  const randomNumberByDate =
-    date.getFullYear().toString() +
-    date.getMonth().toString() +
-    date.getDay().toString() +
-    date.getHours().toString() +
-    date.getMinutes().toString() +
-    date.getSeconds().toString() +
-    date.getMilliseconds().toString();
-  if (appender === undefined) return randomNumberByDate;
+  const randomNumberByDate = Math.floor(new Date().valueOf() * Math.random());
+  if (appender === undefined) return `${randomNumberByDate}`;
   else return `${appender}${randomNumberByDate}`;
 };
 
