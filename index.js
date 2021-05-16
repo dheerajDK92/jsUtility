@@ -21,4 +21,8 @@ const searchArrayStr = (array, filterValue) => {
     return searchedArray;
 };
 
-module.export.jsUtility = { isNull, isEmpty, isNullOrUndefined, hasProperty, searchArrayStr };
+module.exports.isNull = isNull;
+module.exports.isEmpty = isEmpty;
+module.exports.isNullOrUndefined = isNullOrUndefined;
+module.exports.hasProperty = hasProperty;
+module.exports.searchArrayStr = searchArrayStr;

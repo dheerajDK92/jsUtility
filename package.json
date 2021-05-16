@@ -14,10 +14,9 @@
     "JavaScript",
     "Utility",
     "Methods",
-    "Javascript",
-    "Null",
-    "Check",
-    "Object Property Check"
+    "Null Check",
+    "Object Property Check",
+    "Search Array"
   ],
   "author": "Dheeraj Kumar",
   "license": "ISC",
