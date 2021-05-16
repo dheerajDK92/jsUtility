@@ -51,5 +51,15 @@ import { searchArrayStr }  from "js_utility_fns";
 const result = searchArrayStr(array, filterValue); // return match values in array
 ```
 
+### Generate Unique Number
+
+getRandomNumber : This method will generate unique number
+
+```javascript
+import { getRandomNumber }  from "js_utility_fns";
+const uniqueNumber = getRandomNumber(); // return unique number
+const uniqueNumberWith = getRandomNumber("ID"); // return unique number after prepend the text which you will pass as argument.
+```
+
 
 ##### Thank you. Please don't forget about feedback at `dheerajatoria@gmail.com` if you need any new enhancement into this library.
