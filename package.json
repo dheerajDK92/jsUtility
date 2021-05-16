@@ -1,6 +1,6 @@
 {
   "name": "js_utility_fns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Utility Methods Library",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "Methods",
     "Javascript",
     "Null",
-    "Check"
+    "Check",
+    "Object Property Check"
   ],
   "author": "Dheeraj Kumar",
   "license": "ISC",

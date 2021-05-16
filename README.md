@@ -17,3 +17,8 @@ isEmpty : This method will return boolean value after checking the string.
 # Null or Undefined Check
 
 isNullOrUndefined : This method will return boolean after check the null/undefined
+
+
+# Object Has Key
+
+hasProperty : This method will return boolean after check the Object param is available or not

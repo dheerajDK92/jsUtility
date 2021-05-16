@@ -10,4 +10,9 @@ const isNullOrUndefined = (value) => {
   return value === null || value === undefined || value === "";
 };
 
-module.export.jsUtility = { isNull, isEmpty, isNullOrUndefined };
+
+const hasProperty = (value) => {
+    return typeof value !== "undefined";
+};
+
+module.export.jsUtility = { isNull, isEmpty, isNullOrUndefined, hasProperty };
