@@ -1,6 +1,6 @@
 {
   "name": "js_utility_fns",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Javascript Utility Methods Library",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "Methods",
     "Null Check",
     "Object Property Check",
-    "Search Array"
+    "Search Array",
+    "Generate Unique Number"
   ],
   "author": "Dheeraj Kumar",
   "license": "ISC",
