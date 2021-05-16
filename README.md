@@ -2,7 +2,7 @@
 
 Get Javascript Utility Methods To Save Duplication Of Code In Your Project.
 
-# installation
+# Installation
 
 `npm i js_utility_fns -- save`
 
