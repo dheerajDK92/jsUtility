@@ -8,11 +8,11 @@ Get Javascript Utility Methods To Save Duplication Of Code In Your Project.
 
 ### Null Check 
 
-isNullCheck : This method will return true/false after checking the value.
+isNull : This method will return true/false after checking the value.
 
 ```javascript
-import { isNullCheck }  from "js_utility_fns";
-isNullCheck(value);
+import { isNull }  from "js_utility_fns";
+isNull(value);
 ```
 
 ### Empty Check
