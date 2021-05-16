@@ -10,15 +10,33 @@ npm i js_utility_fns
 
 isNullCheck : This method will return true/false after checking the value.
 
+```javascript
+import { isNullCheck }  from "js_utility_fns";
+isNullCheck(value);
+```
+
 # Empty Check
 
 isEmpty : This method will return boolean value after checking the string.
+
+```javascript
+import { isEmpty }  from "js_utility_fns";
+isEmpty(value);
+```
 
 # Null or Undefined Check
 
 isNullOrUndefined : This method will return boolean after check the null/undefined
 
-
+```javascript
+import { isNullOrUndefined }  from "js_utility_fns";
+isNullOrUndefined(value);
+```
 # Object Has Key
 
 hasProperty : This method will return boolean after check the Object param is available or not
+
+```javascript
+import { hasProperty }  from "js_utility_fns";
+hasProperty(obj.paramToCheck);
+```
