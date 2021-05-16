@@ -17,7 +17,7 @@ const hasProperty = (value) => {
 
 
 const searchArrayStr = (array, filterValue) => {
-    const searchedArray = array.filter((v) => v.toLowerCase().startsWith(filterValue));
+    const searchedArray = array.filter((v) => v.toLowerCase().startsWith(filterValue.toLowerCase()));
     return searchedArray;
 };
 
