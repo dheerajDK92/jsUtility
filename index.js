@@ -15,4 +15,10 @@ const hasProperty = (value) => {
     return typeof value !== "undefined";
 };
 
-module.export.jsUtility = { isNull, isEmpty, isNullOrUndefined, hasProperty };
+
+const searchArrayStr = (array, filterValue) => {
+    const searchedArray = array.filter((v) => v.toLowerCase().startsWith(filterValue));
+    return searchedArray;
+};
+
+module.export.jsUtility = { isNull, isEmpty, isNullOrUndefined, hasProperty, searchArrayStr };
