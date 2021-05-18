@@ -27,6 +27,29 @@ const getRandomNumber = (appender) => {
   else return `${appender}${randomNumberByDate}`;
 };
 
+const getBrowserName = () => {
+  return window
+    ? window.navigator
+      ? navigator.userAgent
+          .split(")")
+          .reverse()[0]
+          .match(/(?!Gecko|Version|[A-Za-z]+?Web[Kk]it)[A-Z][a-z]+/g)[0]
+      : "Not Able to Get Browser Name. Sorry!"
+    : "Window is not available";
+};
+
+const getBrowserNameWithVersion = () => {
+  return window
+    ? window.navigator
+      ? navigator.userAgent
+          .split(")")
+          .reverse()[0]
+          .match(/(?!Gecko|Version|[A-Za-z]+?Web[Kk]it)[A-Z][a-z]+\/[\d.]+/g)[0]
+          .split("/")
+      : "Not Able to Get Browser Name. Sorry!"
+    : "Window is not available";
+};
+
 module.exports = {
   isNull,
   isEmpty,
@@ -34,4 +57,6 @@ module.exports = {
   hasProperty,
   searchArrayStr,
   getRandomNumber,
+  getBrowserName,
+  getBrowserNameWithVersion,
 };

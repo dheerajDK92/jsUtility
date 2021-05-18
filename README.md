@@ -62,4 +62,14 @@ const uniqueNumberWith = getRandomNumber("ID"); // return unique number after pr
 ```
 
 
+### Get Browser Name with Version
+
+getRandomNumber : This method will generate unique number
+
+```javascript
+import { getBrowserName, getBrowserNameWithVersion }  from "js_utility_fns";
+const browserName = getBrowserName(); // Return Ex: "Chrome"
+const browserNameVersion = getBrowserNameWithVersion();// Return Ex: ["Chrome", "90.0.4430.212"]
+```
+
 ##### Thank you. Please don't forget about feedback at `dheerajatoria@gmail.com` if you need any new enhancement into this library.
